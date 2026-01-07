@@ -31,7 +31,7 @@ public class StorageImpl<K, V> implements Storage<K, V> {
 
         if (index != -1) {
             return values[index];
-        }
+     }
         return null;
     }
 
